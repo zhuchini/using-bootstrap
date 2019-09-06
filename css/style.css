@@ -1,4 +1,39 @@
-main {
-  display: flex;
-  max-width: 1100px;
+header {
+  background-color: #FF0500;
+  margin: 0 auto;
+}
+
+header p {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.header-links {
+  padding: 18px;
+}
+
+.signin-header {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.signin-header:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.subscribe-header {
+  background-color: white;
+  color: #FF0500;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.subscribe-header:hover {
+  color: #FF0500;
+  text-decoration: none;
 }

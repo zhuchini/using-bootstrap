@@ -5,22 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/8ecd2bb40c.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/media.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Newsweek Using Bootstrap</title>
 </head>
 <body>
-  <header>
+  <header class="d-flex justify-content-between align-items-end pl-3">
     <p>Thu, Sep 05, 2019 </p>
     <a href="#">
-      <h1>Newsweek</h1>
+      <img src="./images/header.svg" style="max-height: 124px; max-width: 470px;" alt="">
     </a>
-    <a href="#">
-      SIGN IN
-    </a>
-    <a href="#">
-      SUBSCRIBE >
-    </a>
+    <div class="header-links">
+      <a class="signin-header" href="#">
+        SIGN IN
+      </a>
+      <a class="subscribe-header" href="#">
+        SUBSCRIBE >
+      </a>
+    </div>
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
