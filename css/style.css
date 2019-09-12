@@ -68,18 +68,17 @@ main .img-container h6 {
   width: 0 !important;
 }
 
-.main #featured-story .card .card-img-overlay, 
-#top-story .card .card-img-overlay,
-#inthemag-left .card-img-overlay, #nw-editors-pick .card-img-overlay {
+.main #featured-story,
+#inthemag-left {
   padding: 8px 15px 9px;
   top: auto;
   text-align: center;
   width: fit-content;
 }
 
-.main #featured-story .card .card-img-overlay h5,
-#inthemag-left .card-img-overlay h5, 
-#nw-editors-pick .card-img-overlay h5 {
+.main #featured-story .card,
+#inthemag-left, 
+#nw-editors-pick {
   font-size: 17px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
@@ -87,11 +86,11 @@ main .img-container h6 {
   padding: 8px 15px 9px;
 }
 
-#featured-story .card:last-child .card-img-overlay {
+#featured-story .card:last-child {
   width: 50%;
 }
 
-.main #featured-story .card:last-child .card-img-overlay h5 {
+.main #featured-story .card:last-child {
   font-size: 17px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
@@ -101,7 +100,7 @@ main .img-container h6 {
   min-height: 33px;
 }
 
-#top-story .card .card-img-overlay h5 {
+#top-story .card h5 {
   font-size: 17px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
@@ -119,19 +118,19 @@ main .img-container h6 {
   overflow: hidden;
 }
 
-#culture-item {
+.culture-item {
   max-height: 526px;
 }
 
-#culture-item .card-body {
+.culture-item .card-body {
   padding: 15px 10px 20px;
 }
 
-#culture-item .badge {
+.culture-item .badge {
   font-size: 13px; 
 }
 
-#culture-item .badge a {
+.culture-item .badge a {
   color: #272727;
   background-color: #c2d4d7;
   font-weight: 300;
